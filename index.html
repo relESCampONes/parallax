@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style type="text/css">
+        body, html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+        .conteudo{
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+        h3{
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        .caixa1, .caixa2, .caixa3, .caixa4{
+            position: relative;
+            height: 100%;
+            opacity: 0.8;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .caixa1{
+            background-image: url(./img/imagem1.jpg);
+        }
+        .caixa2{
+            background-image: url(./img/imagem2.jpg);
+        }
+        .caixa3{
+            background-image: url(./img/imagem3.jpg);
+        }
+        .caixa4{
+            background-image: url(./img/imagem4.jpg);
+        }
+        .conteudo-titulo{
+            position: absolute;
+            left: 0;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+        .conteudo-titulo span.titulo{
+            text-transform: uppercase;
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo"> 
+            <span class="titulo">Passeio de balões</span>
+        </div>
+    </div>
+    
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime animi et molestias veritatis quod recusandae maiores, dignissimos reiciendis inventore sequi non corrupti. Quibusdam mollitia velit quos voluptatem fugiat debitis quam!lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quam illo voluptas ipsam quaerat iure eos rerum veritatis atque optio! Assumenda eius vel illum expedita similique omnis, iste ratione voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora quas reiciendis et mollitia delectus vel quibusdam voluptas, doloribus ex sint modi repellendus accusantium, praesentium, reprehenderit voluptatum perferendis error atque?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quasi, voluptatem veniam architecto repellendus quae nostrum quidem officia dolores! Enim neque cupiditate est sunt perferendis optio, voluptatum explicabo totam alias.</p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo"> 
+            <span class="titulo">Pegando a estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime animi et molestias veritatis quod recusandae maiores, dignissimos reiciendis inventore sequi non corrupti. Quibusdam mollitia velit quos voluptatem fugiat debitis quam!lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quam illo voluptas ipsam quaerat iure eos rerum veritatis atque optio! Assumenda eius vel illum expedita similique omnis, iste ratione voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora quas reiciendis et mollitia delectus vel quibusdam voluptas, doloribus ex sint modi repellendus accusantium, praesentium, reprehenderit voluptatum perferendis error atque?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quasi, voluptatem veniam architecto repellendus quae nostrum quidem officia dolores! Enim neque cupiditate est sunt perferendis optio, voluptatum explicabo totam alias.</p>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo"> 
+            <span class="titulo">Pôr do sol</span>
+        </div>
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo"> 
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+
+</body>
+</html>
